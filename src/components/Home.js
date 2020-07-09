@@ -18,8 +18,6 @@ const Home = () => {
     <>
       <h2>{titulo}</h2>
       <p>{contenido}</p>
-      <Link to="/aboutme/">Conoceme un poco más</Link>
-      <Link to="/contact/">contacto</Link>
     </>
   )
 }

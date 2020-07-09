@@ -1,12 +1,21 @@
 /* Variables de color si el tema es nulo o light */
 body {
-    color: #333333;
-    background-color: #fff;
-  }
-  
-  /* Variables de color si el tema es dark */
-  body[data-theme="dark"] {
-    color: #fff;
-    background-color: #282c34;
-  }
-  
+  color: #333333;
+  background-color: #fff;
+}
+
+/* Variables de color si el tema es dark */
+body[data-theme="dark"] {
+  color: #6c757d;
+  background-color: #282c34;
+}
+.navbar[data-theme="dark"] {
+  background-color: #1b1d2136;
+}
+.navbar {
+  background-color: #f8f9fa;
+}
+.nav-link:hover, .active {
+  background-color: #dae0e5bd;
+}
+
