@@ -1,0 +1,12 @@
+/* Variables de color si el tema es nulo o light */
+body {
+    color: #333333;
+    background-color: #fff;
+  }
+  
+  /* Variables de color si el tema es dark */
+  body[data-theme="dark"] {
+    color: #fff;
+    background-color: #282c34;
+  }
+  
