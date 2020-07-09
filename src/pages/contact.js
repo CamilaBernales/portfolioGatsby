@@ -1,12 +1,49 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
-import Contact from "../components/Contact"
 const contact = () => (
   <Layout>
-    {/* <Link to="/page-2/">Go to page 2</Link> <br /> */}
-    {/* <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
-    <Contact/>
+      <div className="my-5 text-center">
+      <h1>You can find me here</h1>
+    </div>
+    <div className="row d-flex justify-content-center align-items-center">
+      <p>
+        Twitter:{" "}
+        <a
+          className="text-secondary"
+          href=" https://twitter.com/DevGirlC?s=08"
+          target="_blank"
+          rel="noreferrer"
+        >
+          @CamilaBernales
+        </a>
+      </p>
+    </div>
+    <div className="row d-flex justify-content-center align-items-center">
+      <p>
+        LinkedIn:{" "}
+        <a
+          href="https://www.linkedin.com/in/camila-bernales-6779821aa/"
+          target="_blank"
+          className="text-secondary"
+          rel="noreferrer"
+        >
+          Camila Bernales
+        </a>
+      </p>
+    </div>
+    <div className="row d-flex justify-content-center align-items-center">
+      <p>
+        Github:{" "}
+        <a
+          className="text-secondary"
+          href="https://github.com/CamilaBernales"
+          target="_blank"
+          rel="noreferrer"
+        >
+          @CamilaBernales
+        </a>
+      </p>
+    </div>
   </Layout>
 )
 

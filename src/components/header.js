@@ -29,9 +29,8 @@ const Header = () => {
       <Link className="navbar-brand text-secondary" to="/">
         Camila Bernales
       </Link>
-      {
-        localStorage.getItem("theme") === "dark" ? (
-          <button
+      {localStorage.getItem("theme") === "dark" ? (
+        <button
           className="navbar-toggler  navbar-dark bg-dark"
           type="button"
           data-toggle="collapse"
@@ -42,9 +41,8 @@ const Header = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        ) :
-        (
-          <button
+      ) : (
+        <button
           className="navbar-toggler navbar-light bg-light"
           type="button"
           data-toggle="collapse"
@@ -55,8 +53,7 @@ const Header = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        )
-      }
+      )}
 
       <div className="collapse navbar-collapse" id="navbarText">
         <ul className="navbar-nav m-auto">
@@ -64,7 +61,6 @@ const Header = () => {
             <Link
               activeClassName="active"
               className="nav-link text-secondary"
-               activeClassName="active"
               to="/"
             >
               <p>Home</p>
@@ -85,11 +81,12 @@ const Header = () => {
               activeClassName="active"
               to="/contact/"
             >
-              contacto
+              Contact
             </Link>
           </li>
         </ul>
         <div className="custom-control custom-switch">
+          <label className="custom-control-label" htmlFor="customSwitch1">
           <input
             type="checkbox"
             className="custom-control-input"
@@ -97,9 +94,8 @@ const Header = () => {
             defaultChecked={checked}
             onChange={() => toggleThemeChange()}
           />
-          <label className="custom-control-label" for="customSwitch1">
-            <span>&#127774;</span>
-            <span>&#127770;</span>
+            <span role="img" aria-label="day emoji">&#127774;</span>
+            <span role="img" aria-label="night emoji">&#127770;</span>
           </label>
         </div>
       </div>

@@ -18,20 +18,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `gatsby-portfolio-camilabernales`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#282c34`,
+        theme_color: `#282c34`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
-    },
-    {
-      resolve: "gatsby-source-datocms",
-      options: {
-        apiToken: 'bd19ed93e521d8e53d0ca101f9c90d'
-      },
-    },
-  ],
+        icon: `src/images/favicondogui.jpg`,
+      }
+    }
+  ]
 }

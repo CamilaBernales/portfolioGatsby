@@ -1,11 +1,18 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Home from "../components/Home"
 const IndexPage = () => (
   <Layout>
-    <Home />
+    <div className="my-5 text-center">
+      <h1>Hi!</h1>
+    </div>
+    <div className="my-5  d-flex justify-content-center align-items-center text-align-center">
+      <p>
+        I'm Camila and I'am web developer{" "}
+        <span role="img" aria-label="emoji hi!">
+          &#128075;
+        </span>
+      </p>
+    </div>
   </Layout>
 )
 
