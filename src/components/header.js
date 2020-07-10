@@ -3,9 +3,9 @@ import "./index.css"
 import { Link } from "gatsby"
 
 const Header = () => {
-  const [checked, setChecked] = useState(
-    localStorage.getItem("theme") === "dark" ? true : false
-  )
+  const defaultTheme =
+    typeof window !== "undefined" && window.localStorage.getItem("theme")
+  const [checked, setChecked] = useState(defaultTheme === "dark" ? true : false)
   useEffect(() => {
     document
       .getElementsByTagName("body")[0]
@@ -29,7 +29,7 @@ const Header = () => {
       <Link className="navbar-brand text-secondary" to="/">
         Camila Bernales
       </Link>
-      {localStorage.getItem("theme") === "dark" ? (
+      {checked ? (
         <button
           className="navbar-toggler  navbar-dark bg-dark"
           type="button"
@@ -86,16 +86,20 @@ const Header = () => {
           </li>
         </ul>
         <div className="custom-control custom-switch">
-          <label className="custom-control-label" htmlFor="customSwitch1">
           <input
             type="checkbox"
             className="custom-control-input"
-            id="customSwitch1"
+            id="darkmode"
             defaultChecked={checked}
             onChange={() => toggleThemeChange()}
           />
-            <span role="img" aria-label="day emoji">&#127774;</span>
-            <span role="img" aria-label="night emoji">&#127770;</span>
+          <label className="custom-control-label" htmlFor="darkmode">
+            <span role="img" aria-label="day emoji">
+              &#127774;
+            </span>
+            <span role="img" aria-label="night emoji">
+              &#127770;
+            </span>
           </label>
         </div>
       </div>

@@ -7,7 +7,7 @@ const IndexPage = () => (
     </div>
     <div className="my-5  d-flex justify-content-center align-items-center text-align-center">
       <p>
-        I'm Camila and I'am web developer{" "}
+        I'm Camila and I'am a web developer{" "}
         <span role="img" aria-label="emoji hi!">
           &#128075;
         </span>
