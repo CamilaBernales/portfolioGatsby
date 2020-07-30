@@ -42,7 +42,7 @@ const projects = () => {
       imagen1: huellitasvet4,
       imagen2: huellitasvet3,
       imagen3: huellitasvet1,
-      informacion: `Full-stack project. The logged in user can buy a variety of products for their pet, take an appointment for the veterinary clinic, send a message, edit their profile, and recover their password. There is an administrator user who has all the information in table format, the admin user can create and edit a product, reply to users, create a new admin user, etc.`,
+      informacion: `Full-stack project. The logged user can buy a variety of products for their pet, take an appointment for the veterinary clinic, send a message, edit their profile, and recover their password. There is an administrator user who has all the information in table format, the admin user can create and edit a product, reply to users, create a new admin user, etc.`,
       tools: "MERN stack, mercado pago, nodemailer ",
       demo: "https://veterinariahuellitasmern.netlify.app/",
       github: "https://github.com/CamilaBernales/next-project",
