@@ -31,6 +31,19 @@ const contact = () => (
         </a>
       </p>
     </div>
+    <div className="row d-flex justify-content-center align-items-center">
+      <p>
+        Codepen:{" "}
+        <a
+          className="text-secondary"
+          href="https://codepen.io/CamilaBernales"
+          target="_blank"
+          rel="noreferrer"
+        >
+          @CamilaBernales
+        </a>
+      </p>
+    </div>
   </Layout>
 )
 
