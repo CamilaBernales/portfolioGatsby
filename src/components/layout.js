@@ -9,6 +9,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Helmet>
+        <title>Camila Bernales</title>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
         <link
           rel="stylesheet"

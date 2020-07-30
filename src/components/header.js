@@ -84,6 +84,15 @@ const Header = () => {
               Contact
             </Link>
           </li>
+          <li className="nav-item mt-1">
+            <Link
+              className="nav-link text-secondary"
+              activeClassName="active"
+              to="/projects/"
+            >
+              Projects
+            </Link>
+          </li>
         </ul>
         <div className="custom-control custom-switch">
           <input
