@@ -29,7 +29,7 @@ body[data-theme="dark"] {
   background-color: #dae0e5bd;
 }
 .card {
-  background-color: #cfd8dc !important;
+  background-color: #eeeeee  !important;
   color: #333333;
   box-shadow: 5px 5px 5px 1px #757575;
   overflow: hidden;
