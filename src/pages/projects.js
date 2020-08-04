@@ -22,7 +22,7 @@ const projects = () => {
       imagen2: imagengym2,
       imagen3: imagengym3,
       tools: "HTML5, CSS3, BootStrap, JavaScript",
-      informacion: `On this website the user can sign up and eserve or cancel a gym class created by the administrator. The administrator can sanction clients, create multiple sports classes and create users.
+      informacion: `On this website the user can sign up and reserve or cancel a gym class created by the administrator. The administrator can sanction clients, create users and multiple sports classes.
         `,
       demo: "https://phoenixgymapp.netlify.app/",
       github: "https://github.com/CamilaBernales/JS-Gym",
